@@ -152,6 +152,7 @@ h6 {
 
 body {
   font-weight: 500;
+  min-width: 700px;
 }
 
 .lock body {
@@ -1836,6 +1837,16 @@ input {
 
   .questions__container {
     max-width: 40rem;
+  }
+}
+
+@media (max-width: 40.0625rem) {
+  body {
+    width: 100%;
+  }
+
+  .wrapper {
+    width: 100%;
   }
 }
 
